@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Website</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        body {
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff3b3f;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        main {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        main h2 {
+            margin-bottom: 20px;
+            font-size: 2rem;
+            color: #ff3b3f;
+        }
+        main p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            line-height: 1.6;
+        }
+        button {
+            background-color: #ff3b3f;
+            color: #fff;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        button:hover {
+            background-color: #ff6f61;
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Discover Something Amazing</h2>
+        <p>
+            This is the beginning of your awesome website. You can add sections, images, buttons, and more.
+            Customize it to fit your style and make it truly yours!
+        </p>
+        <button onclick="alert('Button Clicked!')">Click Me</button>
+    </main>
+
+    <footer>
+        &copy; 2025 My Awesome Website. All rights reserved.
+    </footer>
+
+    <script>
+        // Add your JavaScript here
+        console.log("Website loaded successfully!");
+    </script>
+</body>
+</html>
